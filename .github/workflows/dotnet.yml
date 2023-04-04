@@ -30,8 +30,7 @@ jobs:
       uses: codecov/codecov-action@v3
       with:
         fail_ci_if_error: true
-        directory: /StringLibraryTest/TestResults/*
-        files: coverage.cobertura.xml,!./cache
+        files: **/coverage.cobertura.xml,!./cache
         flags: unittests
         name: codecov-umbrella
         verbose: true
