@@ -29,6 +29,7 @@ jobs:
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v3
       with:
+        token: f51ba257-6ffa-4332-937e-82c6cfbac1e7 
         fail_ci_if_error: true
         directory: /home/runner/work/test-repo-1/test-repo-1/StringLibraryTest/TestResults/
         files: coverage.cobertura.xml,!./cache

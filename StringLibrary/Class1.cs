@@ -10,4 +10,9 @@ public static class StringLibrary
         char ch = str[0];
         return char.IsUpper(ch);
     }
+
+    public static bool NewMethod(this string? str) 
+    {
+        return false;
+    }
 }
