@@ -15,4 +15,9 @@ public static class StringLibrary
     {
         return false;
     }
+
+    public static bool AnotherUntestedMethod(this string? str) 
+    {
+        return false;
+    }
 }
